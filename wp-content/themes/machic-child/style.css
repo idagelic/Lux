@@ -31,3 +31,85 @@ Theme Name:   Machic Child
 .site-departments-wrapper {
     margin-top: 16px;
 }
+
+body {
+    font-family: 'Nunito', sans-serif;
+}
+
+
+/* Shop page - Brand product attribute edits */
+
+.sidebar-inner .widget {
+}
+
+.sidebar-inner .widget .woocommerce-widget-layered-nav-list {
+    max-height: 180px;
+    overflow-y: auto;
+    overflow-x: hidden;
+    padding-right: 16px;
+    scrollbar-width: thin;
+    scrollbar-color: #333 #eee;  
+}
+
+.sidebar-inner .widget::-webkit-scrollbar {
+    width: 4px;
+}
+
+.sidebar-inner .widget::-webkit-scrollbar-track {
+  background-color: #eee;
+}
+
+.sidebar-inner .widget::-webkit-scrollbar-thumb {
+  background-color: #333;
+  border-radius: 6px;
+}
+
+.sidebar-inner .widget ul li {
+    display: inline !important;
+    padding-right: 12px;
+    font-weight: 500;
+    white-space: nowrap;
+}
+
+
+.sidebar-inner .widget ul li .count {
+    color: #a7a7a7;
+    /* display: none; */
+}
+
+.sidebar-inner .widget ul li.chosen a, .sidebar-inner .widget ul li.chosen span {
+    color: #901d78;
+    font-weight: 600;
+}
+
+/* width */
+::-webkit-scrollbar {
+    width: 10px;
+  }
+  
+  /* Track */
+  ::-webkit-scrollbar-track {
+    background: #f1f1f1;
+  }
+  
+  /* Handle */
+  ::-webkit-scrollbar-thumb {
+    background: #888;
+  }
+  
+  /* Handle on hover */
+  ::-webkit-scrollbar-thumb:hover {
+    background: #555;
+  }
+
+  /* Temporary removal */
+
+  body > footer > div.footer-row.footer-widgets {
+    display: none;
+  }
+
+  @media(max-width: 600px) {
+    #main > div > div > div > div.row.mt-20.d-mt-20.shop-banner-top {
+        display: none;
+    }
+  }

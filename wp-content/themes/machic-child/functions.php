@@ -27,7 +27,38 @@ function display_vat_included_text($price_html, $product) {
 
 function custom_translate_text($translated_text, $text, $domain) {
     $translations = array(
+        'Search your favorite product...' => 'Pretraži proizvode',
         'All Departments' => 'Sve kategorije',
+        'In Stock' => 'Dostupno',
+        'Out of stock' => 'Nedostupno',
+        'Recently Viewed Products' => 'Nedavno pregledani proizvodi',
+        'On Sale' => 'Na akciji',
+        'Site Navigation' => 'Podstranice',
+        'Filter Products' => 'Filtriraj proizvode',
+        'Sort by' => 'Poredaj',
+        'Go to homepage' => 'Povratak na naslovnicu',
+        'Home' => 'Naslovnica',
+        'Store' => 'Proizvodi',
+        'Categories' => 'Kategorije',
+        'Search' => 'Pretraži',
+        'Wishlist' => 'Želje',
+        'Account' => 'Račun',
+        'Remains until the end of the offer' => 'Do kraja akcije!',
+        /* Woo */
+        'No products in the cart' => 'Košarica je prazna',
+        'Your order' => 'Vaša narudžba',
+        'Return to shop' => 'Vrati se u trgovinu',
+        'Coupon code' => 'Kupon kod',
+        'Show' => 'Prikaži',
+        'Remove All' => 'Ukloni sve',
+        'Cart Updated' => 'Košarica ažurirana',
+        'View cart' => 'Vidi košaricu',
+        'No results found for' => 'Nema rezultata za',
+        'Clear filters' => 'Ukloni filtere',
+        'Total' => 'Ukupno',
+        'Items' => 'proizvoda', // TODO: check!
+        'Your cart is currently empty' => 'Košarica je prazna',
+        'Related products' => 'Povezani proizvodi',
     );
 
     if ($domain === 'machic' || $domain === 'machic-core') {
